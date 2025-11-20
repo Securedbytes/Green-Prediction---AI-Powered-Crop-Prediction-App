@@ -68,7 +68,8 @@ test/
 - Android SDK / Xcode (for iOS)
 - Git
 
-
+##  How To Access the Test Files
+You can directly download the test File from the attached file list 
 
 ## 🧪 Testing
 
