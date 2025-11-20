@@ -46,21 +46,8 @@ A comprehensive Flutter application that empowers farmers and consumers with AI-
 - **Cloud Storage**: Cloudinary (for images)
 - **AI/ML**: Custom prediction models
 
-### Project Structure
+### Project Structure (only included the tested dart files
 ```
-lib/
-├── models/              # Data models
-├── providers/           # State management
-├── screens/            # UI screens
-│   ├── auth/          # Authentication
-│   ├── home/          # Home screen
-│   ├── ai_prediction/ # AI prediction
-│   ├── marketplace/   # Product listings
-│   ├── profile/       # User profile
-│   └── chat/          # Messaging
-├── services/          # API services
-├── utils/             # Utilities & themes
-└── widgets/           # Reusable widgets
 
 test/
 ├── models/            # Model unit tests
@@ -81,36 +68,7 @@ test/
 - Android SDK / Xcode (for iOS)
 - Git
 
-### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/green-prediction.git
-   cd green-prediction
-   ```
-
-2. **Install dependencies**
-   ```bash
-   flutter pub get
-   ```
-
-3. **Configure Firebase**
-   - Create a Firebase project at [console.firebase.google.com](https://console.firebase.google.com)
-   - Download `google-services.json` (Android) and `GoogleService-Info.plist` (iOS)
-   - Place them in respective platform folders
-
-4. **Set up backend API**
-   - Update `lib/services/api_service.dart` with your backend URL:
-   ```dart
-   static const String baseUrl = 'YOUR_BACKEND_URL';
-   ```
-
-5. **Run the app**
-   ```bash
-   flutter run
-   ```
-
----
 
 ## 🧪 Testing
 
@@ -148,11 +106,6 @@ open coverage/html/index.html  # Mac
 
 ---
 
-## 📸 Screenshots
-
-| Home Screen | AI Prediction | Marketplace | Profile |
-|-------------|---------------|-------------|---------|
-| ![Home](screenshots/home.png) | ![AI](screenshots/ai_prediction.png) | ![Market](screenshots/marketplace.png) | ![Profile](screenshots/profile.png) |
 
 ---
 
@@ -251,19 +204,7 @@ dev_dependencies:
 
 ---
 
-## 🎨 Design System
 
-### Color Palette
-- **Primary Green**: `#4CAF50` - Main brand color
-- **Light Gray**: `#F5F5F5` - Background
-- **Dark Gray**: `#666666` - Secondary text
-- **Text Dark**: `#333333` - Primary text
-- **Accent Orange**: `#FF9800` - Highlights
-
-### Typography
-- **Heading**: Poppins Bold
-- **Body**: Roboto Regular
-- **Caption**: Roboto Light
 
 ---
 
@@ -302,7 +243,7 @@ Comprehensive testing documentation available in `/docs/testing_report.md`
 1. **AI Prediction Model**: 3 tests failing related to null/empty data handling
 2. **Recommendation**: Add data validation layer before API processing
 
-See [Issues](https://github.com/yourusername/green-prediction/issues) for full list.
+See [Issues](https://github.com/Securedbytes/green-prediction/issues) for full list.
 
 ---
 
@@ -314,34 +255,22 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- **Thisuli Wijethilake** - *Initial work* - [GitHub Profile](https://github.com/yourusername)
+- **Thisas Jayasooriya** - *Initial work* - [GitHub Profile](https://github.com/Securedbytes)
 
 ---
 
-## 🎓 Academic Context
-
-This project was developed as part of academic research at **Edith Cowan University**.
-
-**Testing Period**: October 12-13, 2025  
-**Supervisor**: [Tutor Name]  
-**Course**: [Course Name]
 
 ---
 
 ## 📞 Contact & Support
 
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/green-prediction/issues)
+- **Email**: jayasooriyathisas9@gmail.com
+- **LinkedIn**: www.linkedin.com/in/thisas-jayasooriya-b70398337
+- **Issues**: [GitHub Issues](https://github.com/Securedbytes/green-prediction/issues)
 
 ---
 
-## 🙏 Acknowledgments
 
-- Firebase for backend services
-- Cloudinary for image hosting
-- Flutter community for excellent documentation
-- Edith Cowan University for academic support
 
 ---
 
@@ -360,18 +289,6 @@ This project was developed as part of academic research at **Edith Cowan Univers
 
 ---
 
-## 🗺️ Roadmap
 
-- [x] User authentication
-- [x] AI crop prediction
-- [x] Marketplace functionality
-- [x] Chat system
-- [ ] Payment integration
-- [ ] Push notifications
-- [ ] Offline mode
-- [ ] iOS version
-- [ ] Web version
-
----
 
 **Made with ❤️ using Flutter**
